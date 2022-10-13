@@ -14,7 +14,8 @@ print("Now I will prove to you that I can count to any number you want.")
 num=int(input())
 i=int(0)
 while i<num:
-    print(i)
+    print(str(i)+"!")
     i+=1
 else:
     print(str(i)+"!")
+    print("complited!")
