@@ -32,7 +32,7 @@ while ans!=2:
     if ans>=5:
         print("Please,write number from 1 to 4")
         ans = int(input())
-    elif ans==0:
+    elif ans<=0:
         print("Please,write number from 1 to 4")
         ans = int(input())
     else:
